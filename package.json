@@ -1,0 +1,18 @@
+{
+  "name": "story-workbench",
+  "version": "0.1.0",
+  "description": "Deterministic, human-reviewed quality checks for long-form Markdown fiction.",
+  "type": "commonjs",
+  "bin": {
+    "story-qc": "src/cli.js",
+    "story-release": "src/release-cli.js"
+  },
+  "scripts": {
+    "test": "node tests/check.test.js",
+    "check:sample": "node src/cli.js tests/fixtures/sample-working.md --json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
