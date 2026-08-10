@@ -1,6 +1,6 @@
 # Integrated web-novel workflow
 
-`story-workbench` now contains the complete `hy-novel-studio` workflow, not only the release checker. The workflow is model-agnostic: Markdown skills describe the editorial decisions, while the author or an agent supplies the model and performs the human review.
+`燃稿引擎` now contains the complete `hy-novel-studio` workflow, not only the release checker. The workflow is model-agnostic: Markdown skills describe the editorial decisions, while the author or an agent supplies the model and performs the human review.
 
 ## Twelve stages
 

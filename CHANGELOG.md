@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.1 - 2026-08-10
+
+- renamed the public project to `燃稿引擎 (Ran Gao Engine)`;
+- reserved the stable repository slug `ran-gao-engine` while keeping CLI command names unchanged.
+
 ## 0.2.0 - 2026-08-10
 
 - integrated the twelve-stage `hy-novel-studio` planning, writing, analysis and review workflow;

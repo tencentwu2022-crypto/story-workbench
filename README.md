@@ -1,4 +1,4 @@
-# story-workbench
+# 燃稿引擎（Ran Gao Engine）
 
 This project is independent of OpenAI and is not an official OpenAI project or sponsorship.
 
@@ -8,7 +8,7 @@ This project is independent of OpenAI and is not an official OpenAI project or s
 
 面向长篇 Markdown 小说的人机协作质量检查工具。
 
-`story-workbench` 不生成小说，也不判断“AI率”。它把长篇改稿中最容易失控、又适合自动报警的部分做成可复现检查：发布稿是否混入工作元数据、是否提前泄露信息、是否出现项目定义的预告式套话，以及段落和比喻标记的基本统计。
+`燃稿引擎` 不替作者自动完成整本小说，也不判断“AI率”。它把长篇网文创作中最容易失控、又适合复核的部分做成可复现流程：从项目记忆、开篇设计和章纲，到爽点、节奏、去套路化、连续性和发布稿检查。
 
 ## 为什么做这个项目
 
@@ -58,7 +58,7 @@ Codex 可以用于这个仓库的代码实现、测试、规则审查和发布�
 
 ## 项目状态
 
-当前为 0.2.0：提供完整的十二阶段写作工作流、项目模板、`story-workflow` 项目管理 CLI，以及 `story-qc` / `story-release` 发布质量门。
+当前为 0.2.1：提供完整的十二阶段写作工作流、项目模板、`story-workflow` 项目管理 CLI，以及 `story-qc` / `story-release` 发布质量门。
 
 ## References
 

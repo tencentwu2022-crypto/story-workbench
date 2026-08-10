@@ -1,4 +1,4 @@
-# Using Codex with story-workbench
+# Using Codex with 燃稿引擎
 
 Codex is used as a development and review assistant, not as a hidden content pipeline.
 

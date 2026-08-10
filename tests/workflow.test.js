@@ -18,7 +18,7 @@ test('lists the complete twelve-stage workflow', () => {
 });
 
 test('initializes and validates a novel project template', () => {
-  const root = fs.mkdtempSync(path.join(tempRoot, 'story-workbench-'));
+  const root = fs.mkdtempSync(path.join(tempRoot, 'ran-gao-engine-'));
   try {
     const report = initProject(root);
     assert.equal(report.passed, true);
@@ -31,7 +31,7 @@ test('initializes and validates a novel project template', () => {
 });
 
 test('reports missing project memory files', () => {
-  const root = fs.mkdtempSync(path.join(tempRoot, 'story-workbench-empty-'));
+  const root = fs.mkdtempSync(path.join(tempRoot, 'ran-gao-engine-empty-'));
   try {
     const report = inspectProject(root);
     assert.equal(report.passed, false);

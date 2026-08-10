@@ -1,6 +1,6 @@
 {
-  "name": "story-workbench",
-  "version": "0.2.0",
+  "name": "ran-gao-engine",
+  "version": "0.2.1",
   "description": "A human-reviewed Chinese web-novel workflow with planning, drafting, payoff analysis, de-patterning, continuity checks, and release quality gates.",
   "type": "commonjs",
   "bin": {

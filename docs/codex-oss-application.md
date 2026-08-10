@@ -4,14 +4,14 @@
 
 ## Project
 
-- Name: `story-workbench`
-- URL: `https://github.com/tencentwu2022-crypto/story-workbench`
+- Name: `燃稿引擎 (Ran Gao Engine)`
+- URL: `https://github.com/tencentwu2022-crypto/ran-gao-engine`
 - License: MIT
-- Current release: `0.1.0`
+- Current release: `0.2.1`
 
 ## One-sentence description
 
-`story-workbench` is a dependency-free, human-reviewed Chinese web-novel workflow covering planning, project memory, golden-three analysis, chapter drafting, payoff and density analysis, de-patterning, continuity, final editing, and release quality gates.
+`燃稿引擎` is a dependency-free, human-reviewed Chinese web-novel workflow covering planning, project memory, golden-three analysis, chapter drafting, payoff and density analysis, de-patterning, continuity, final editing, and release quality gates.
 
 ## Why this belongs in open source
 
