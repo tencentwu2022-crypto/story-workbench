@@ -1,0 +1,21 @@
+{
+  "chapter_id": "string",
+  "word_count": 0,
+  "events": [
+    {
+      "start": 0,
+      "end": 0,
+      "type": "C|P|I|D|R|O|K|E|T",
+      "description": "string",
+      "state_change": true
+    }
+  ],
+  "metrics": {
+    "effective_events_per_1000_chars": 0.0,
+    "exposition_ratio_estimate": 0.0,
+    "longest_static_span_chars": 0,
+    "payoff_count": 0,
+    "hook_strength_0_10": 0
+  },
+  "warnings": []
+}

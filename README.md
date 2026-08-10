@@ -2,6 +2,10 @@
 
 This project is independent of OpenAI and is not an official OpenAI project or sponsorship.
 
+这是一个完整的中文网文写作工作流：从市场样本与拆文、项目记忆、黄金前三章、卷纲章纲，到正文初稿、爽点、爽点密度、去套路化、连续性和终审，最后进入可发布稿质检。
+
+完整流程说明见 [Integrated workflow](docs/integrated-workflow.md)，代理接入见 [Agent adapters](docs/adapters.md)，来源与许可证边界见 [Lineage and licenses](docs/lineage-and-licenses.md)。
+
 面向长篇 Markdown 小说的人机协作质量检查工具。
 
 `story-workbench` 不生成小说，也不判断“AI率”。它把长篇改稿中最容易失控、又适合自动报警的部分做成可复现检查：发布稿是否混入工作元数据、是否提前泄露信息、是否出现项目定义的预告式套话，以及段落和比喻标记的基本统计。
@@ -24,9 +28,12 @@ This project is independent of OpenAI and is not an official OpenAI project or s
 ```bash
 npm test
 npm run check:sample
+npm run workflow:list
+npm run workflow:check
 node src/cli.js path/to/chapter.md --json
 node src/cli.js path/to/release.md --release
 node src/release-cli.js path/to/working.md path/to/release.md
+node src/workflow-cli.js init path/to/my-novel
 ```
 
 `--release` 模式会把工作元数据泄漏视为失败。普通模式允许工作稿保留概要、爽点、情绪曲线和章末钩子。
@@ -51,7 +58,7 @@ Codex 可以用于这个仓库的代码实现、测试、规则审查和发布�
 
 ## 项目状态
 
-当前为 0.1.0：提供单文件质检 CLI、Node 内置测试和最小规则集。下一步计划是加入发布稿自动剥离、跨章节数字台账和可审阅的 JSON 报告。
+当前为 0.2.0：提供完整的十二阶段写作工作流、项目模板、`story-workflow` 项目管理 CLI，以及 `story-qc` / `story-release` 发布质量门。
 
 ## References
 

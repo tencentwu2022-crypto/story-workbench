@@ -1,15 +1,18 @@
 {
   "name": "story-workbench",
-  "version": "0.1.0",
-  "description": "Deterministic, human-reviewed quality checks for long-form Markdown fiction.",
+  "version": "0.2.0",
+  "description": "A human-reviewed Chinese web-novel workflow with planning, drafting, payoff analysis, de-patterning, continuity checks, and release quality gates.",
   "type": "commonjs",
   "bin": {
     "story-qc": "src/cli.js",
-    "story-release": "src/release-cli.js"
+    "story-release": "src/release-cli.js",
+    "story-workflow": "src/workflow-cli.js"
   },
   "scripts": {
-    "test": "node tests/check.test.js",
-    "check:sample": "node src/cli.js tests/fixtures/sample-working.md --json"
+    "test": "node tests/all.test.js",
+    "check:sample": "node src/cli.js tests/fixtures/sample-working.md --json",
+    "workflow:list": "node src/workflow-cli.js list",
+    "workflow:check": "node src/workflow-cli.js check templates/novel-project"
   },
   "engines": {
     "node": ">=20"

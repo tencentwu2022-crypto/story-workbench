@@ -11,7 +11,7 @@
 
 ## One-sentence description
 
-`story-workbench` is a dependency-free CLI and workflow for human-reviewed quality checks on long-form Markdown fiction, including release metadata isolation, information-boundary alarms, and reproducible revision reports.
+`story-workbench` is a dependency-free, human-reviewed Chinese web-novel workflow covering planning, project memory, golden-three analysis, chapter drafting, payoff and density analysis, de-patterning, continuity, final editing, and release quality gates.
 
 ## Why this belongs in open source
 
@@ -23,6 +23,7 @@ The repository turns a private editing practice into a transparent, reusable qua
 - test generation and regression checks;
 - documentation and release preparation;
 - maintainer workflow review with no private manuscript committed.
+- staged orchestration of the twelve Markdown skills and project template;
 
 ## Evidence to add before applying
 
@@ -31,6 +32,10 @@ The repository turns a private editing practice into a transparent, reusable qua
 - examples from users or contributors;
 - issue and pull-request activity;
 - a short note describing what support would unlock next.
+
+## Current public scope
+
+The public repository now includes the complete workflow specification and synthetic template, while unpublished manuscripts remain private. It is intentionally model-agnostic and does not bundle a ranking scraper, model API key, or third-party source code.
 
 ## Privacy boundary
 
